@@ -1,5 +1,5 @@
 
-#aggregate dataset by year
+#aggregate dataset by year 
 dataset.by.year <- function(dt, year_min, year_max, evtypes) {
     round_2 <- function(x) round(x, 2)
     

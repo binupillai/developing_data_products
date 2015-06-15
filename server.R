@@ -5,11 +5,6 @@ library(rCharts)
 library(ggvis)
 
 library(data.table)
-library(reshape2)
-library(dplyr)
-library(markdown)
-library(mapproj)
-library(maps)
 
 #loading include file with helper functions
 source("include.R", local = TRUE)

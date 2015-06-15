@@ -15,7 +15,7 @@ shinyUI(
                     actionButton(inputId = "clear_all", label = "Clear selection", icon = icon("check-square")),
                     actionButton(inputId = "select_all", label = "Select all", icon = icon("check-square-o"))
                 ),
-                mainPanel(
+                mainPanel( 
                     tabsetPanel(
                       # Summary 
                       tabPanel(p(icon("list-alt"), "Summary"),
